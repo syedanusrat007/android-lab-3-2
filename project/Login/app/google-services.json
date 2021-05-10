@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "13772131338",
+    "firebase_url": "https://login-18d2e.firebaseio.com",
+    "project_id": "login-18d2e",
+    "storage_bucket": "login-18d2e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:13772131338:android:e845b01c88e05cae",
+        "android_client_info": {
+          "package_name": "com.mist.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "13772131338-g5fjvdvln50bk1m59lfv8fh6vdl73upu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mist.login",
+            "certificate_hash": "7a6dadeb3fbd8529fb304c264b1911564e5f250b"
+          }
+        },
+        {
+          "client_id": "13772131338-m73vj31kq9r6n8vjet95sjmpvuejg5f7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzbObE8BRtLlAZPlFs92fKNg-w2Z5zDGs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "13772131338-m73vj31kq9r6n8vjet95sjmpvuejg5f7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

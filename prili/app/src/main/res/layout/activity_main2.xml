@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:id="@+id/tvRegBtn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+     />
+
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+
+        android:padding="15dp"
+        android:inputType="text"
+        android:lines="1"
+        android:maxLines="1"
+
+        android:layout_below="@id/tvRegBtn1"
+        android:textSize="15dp"/>
+    <EditText
+        android:id="@+id/etUni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="university/school/college"
+
+        android:padding="15dp"
+        android:inputType="text"
+        android:lines="1"
+        android:maxLines="1"
+
+        android:layout_below="@id/etName"
+        android:textSize="15dp"/>
+    <EditText
+        android:id="@+id/etroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="roll"
+
+        android:padding="15dp"
+        android:inputType="number"
+        android:lines="1"
+        android:maxLines="1"
+        android:layout_below="@id/etUni"
+        android:textSize="15dp"/>
+
+    <EditText
+        android:id="@+id/etlevel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="level/class"
+
+        android:padding="15dp"
+        android:inputType="number"
+        android:lines="1"
+        android:maxLines="1"
+
+        android:layout_below="@id/etroll"
+        android:textSize="15dp"/>
+
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:lines="1"
+        android:maxLines="1"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:textSize="15dp"
+        android:layout_below="@+id/etEmail"
+        />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email"
+        android:lines="1"
+        android:maxLines="1"
+        android:inputType="textEmailAddress"
+
+        android:padding="15dp"
+
+        android:layout_below="@+id/etlevel"
+
+
+        />
+
+    <EditText
+        android:id="@+id/etphn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" phone number"
+        android:lines="1"
+        android:maxLines="1"
+        android:inputType="phone"
+
+        android:padding="15dp"
+        android:textSize="15dp"
+        android:layout_below="@+id/etPassword"
+
+        />
+
+    <TextView
+        android:id="@+id/tvRegBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DONE"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/etphn"
+        android:layout_marginTop="10dp" />
+
+
+</RelativeLayout>
+

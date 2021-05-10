@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Roll_201514046</string>
+    <string name="customer_s_inventory">CUSTOMER`S INVENTOR</string>
+    <string name="enter_customer_s_name">Enter Customer`s Name</string>
+    <string name="meat_item">Meat Item</string>
+    <string name="fruit_item">Fruit Item</string>
+    <string name="payment_system">Payment System</string>
+    <string name="cash_on_delivery">cash on delivery</string>
+    <string name="card_on_payment">Card on payment</string>
+    <string name="proceed">Proceed</string>
+    <string name="back">back</string>
+    <string name="alertName">enter name</string>
+    <string name="alertType1">choos meat</string>
+    <string name="alertType2">choose fruit</string>
+</resources>
